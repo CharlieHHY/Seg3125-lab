@@ -23,6 +23,7 @@ function openInfo(evt, tabName) {
 }
 
 
+
 	
 // generate a checkbox list from a list of products
 // it makes each product name as the label for the checkbos
@@ -42,7 +43,7 @@ function populateListProductChoices(slct1, slct2) {
 	// <label for="Bread">Bread/label><br>
 		
 	for (i = 0; i < optionArray.length; i++) {
-			
+		console.log("!"+optionArray.length);
 		var productName = optionArray[i];
 		// create the checkbox and add in HTML DOM
 		var checkbox = document.createElement("input");
