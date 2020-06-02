@@ -82,7 +82,8 @@ var products = [
 
 function restrictListProducts(prods, restriction) {
 	let product_names = [];
-	
+/* This style sheet is taken from 
+https://blog.csdn.net/qq416761940/java/article/details/79632018*/	
 	products.sort(function(a,b){
     var value1 = a.price;
         value2 = b.price;
@@ -115,9 +116,7 @@ function restrictListProducts(prods, restriction) {
 	}
 	
 
-/* This style sheet is taken from 
-https://blog.csdn.net/qq416761940/java/article/details/79632018*/
-	
+
 	return product_names;
 }
 
