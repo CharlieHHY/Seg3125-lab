@@ -50,12 +50,94 @@ function populateListProductChoices(slct1, slct2) {
 		checkbox.type = "checkbox";
 		checkbox.name = "product";
 		checkbox.value = productName;
-		
+/* This picture is taken from 
+https://www.google.com/search?q=bread&tbm=isch&ved=2ahUKEwjR84SYh_bpAhVLEc0KHRtWAFcQ2-cCegQIABAA&oq=bread&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIHCAAQsQMQQzIECAAQQzIFCAAQsQMyBQgAELEDMgUIABCxAzICCAAyBQgAELEDMgIIADICCAA6BAgjECdQyqQDWL2vA2D2tANoAHAAeACAAbYBiAHuBJIBAzEuNJgBAKABAaoBC2d3cy13aXotaW1n&sclient=img&ei=ATLgXpHvBcuitAabrIG4BQ&bih=938&biw=1920&rlz=1C1CHZL_zh-CNCA823CA823*/		
 		if(products[i].name == "brocoli"){
 			
 		
 		var img = document.createElement("img");
 		img.src="Brocoli.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "bread"){
+			
+		
+		var img = document.createElement("img");
+		img.src="Bread.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "salmon"){
+			
+		
+		var img = document.createElement("img");
+		img.src="salmon.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "potato"){
+			
+		
+		var img = document.createElement("img");
+		img.src="potato.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "tomato"){
+			
+		
+		var img = document.createElement("img");
+		img.src="tomato.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "carrot"){
+			
+		
+		var img = document.createElement("img");
+		img.src="carrot.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "onion"){
+			
+		
+		var img = document.createElement("img");
+		img.src="onion.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "beef"){
+			
+		
+		var img = document.createElement("img");
+		img.src="beef.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}
+		if(products[i].name == "pork"){
+			
+		
+		var img = document.createElement("img");
+		img.src="pork.jpg";
+		img.width="200";
+		
+		s2.appendChild(img);
+		}		
+		if(products[i].name == "lamb"){
+			
+		
+		var img = document.createElement("img");
+		img.src="lamb.jpg";
 		img.width="200";
 		
 		s2.appendChild(img);
